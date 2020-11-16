@@ -1,0 +1,35 @@
+.menu{
+    text-align: center;
+}
+.menu li{
+display: inline-block;
+margin: -3px;
+}
+.menu li a{
+    padding: 5px 88px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background: rgb(179, 173, 97);
+    transition: .3s;
+    border-color: orange;
+
+}
+.another{
+    background-image: url(./img/2018-04-29-11-12-17.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    padding: 200px 0;
+}
+
+.test1{
+    height: 1000px;
+}
